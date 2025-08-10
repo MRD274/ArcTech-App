@@ -24,17 +24,17 @@
 ## Configure Database Connection
 - Open the db.php file in the project root directory
 - Update the variables to match your database setup
-<?php
-$host = 'localhost';
-$port = your port;
-$user = your_db_user;
-$pass = "your_db_password";
-$dbname =  "your_database_name"';
+- <?php
+- $host = 'localhost';
+- $port = your port;
+- $user = your_db_user;
+- $pass = "your_db_password";
+ -$dbname =  "your_database_name"';
 
-$conn = new mysqli($host, $user, $pass, $dbname, $port);
+- $conn = new mysqli($host, $user, $pass, $dbname, $port);
 
-if ($conn->connect_error) {
-    die("Database connection failed: " . $conn->connect_error);
-}
-?>
+ - if ($conn->connect_error) {
+     - die("Database connection failed: " . $conn->connect_error);
+- }
+- ?>
 

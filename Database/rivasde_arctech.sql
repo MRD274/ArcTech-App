@@ -86,6 +86,8 @@ INSERT INTO `users` (`id`, `NAME`, `email`, `PASSWORD`, `is_admin`, `is_disabled
 (2, 'goe', 'goe@gamil.com', '$2y$10$p.pFoZ01a.bLX0C0BPEbdO6.rusc468stBMfKu0hXPwgFR8qO6AVK', 0, 0),
 (3, 'joe', 'joe@gamil.com', '$2y$10$d3DwU8CV1YYpr58f8.IfkOitlBNAu.1.ooS8qE0TGijRHqvT4qS3.', 1, 0);
 
+-- Admin: Joe, Email: joe@gamil.com, Password: 1234
+
 --
 -- Indexes for dumped tables
 --

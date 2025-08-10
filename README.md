@@ -4,7 +4,7 @@
 
 1. Create a new MySQL database on your server.
 
-2. Import the SQL file `database/arctech.sql` into your database using phpMyAdmin
+2. Import the SQL file `database/rivasde_arctech.sql` into your database using phpMyAdmin
 
    **Using phpMyAdmin:**
 
